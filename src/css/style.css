@@ -219,6 +219,7 @@ footer{
     background-color: #171712;;
     height: 200px;
     border-top: 1px solid white;
+    margin-top: 50px;
 }
 
 .footer-m{
@@ -267,7 +268,7 @@ footer{
     align-items: center;
 }
 
-span{
+.cop{
     text-align: center;
     color: white;
     display: flex;
@@ -360,10 +361,11 @@ main{
 }
 
 
-.article-price, span{
+.article-price,span{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: #9EABB8;
+    color: white;
 }
+
