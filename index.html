@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,232 +12,247 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
+
 <body>
-    
+
     <!-- HEADER -->
     <header class="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-[#171712]">
-        <div class="right-header">
-
-            <a href="#" class="logo">
-                <img src="src/images/logo.png" alt="logo" >
-                <h1 class="name-of-hotel">CORAL HOTEL</h1>
-            </a>
-
-        </div>
-        <div class="left-header">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #171712;">
             <div class="container-fluid">
-             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-               <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#home" style="color: #BAB29C;">Home</a>
-                    <a class="nav-link" href="#about">About</a>
-                    <a class="nav-link" href="page-1.html">Rooms</a>
-                    <a href="book-now.html" class="btn btn-primary">Book Now</a>
+                <a href="#" class="logo d-flex align-items-center">
+                    <img src="src/images/logo.png" alt="logo" style="height: 40px; margin-right: 10px;">
+                    <h1 class="name-of-hotel m-0 text-white">CORAL HOTEL</h1>
+                </a>
+
+                <!-- Bootstrap's default toggle button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation" style="color: white;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link text-light" href="#about">About</a>
+                        <a class="nav-link text-light" href="page-1.html">Rooms</a>
+                        <a href="book-now.html" class="btn btn-primary">Book Now</a>
+                    </div>
                 </div>
-              </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     </header>
 
     <!-- HEADER -->
 
     <!-- MAIN -->
 
-        <section class="section-hello" id="home">
-            <div class="section-hello-data">
-                  <h1>Welcome to Coral Hotel</h1>
-                  <p>Experience unparalleled luxury and comfort in the heart of the city. Your perfect getaway awaits.</p>
-                  <a href="book-now.html" class="bt">Book Now</a>
-            </div>      
-        </section>
+    <section class="section-hello" id="home">
+        <div class="section-hello-data">
+            <h1>Welcome to Coral Hotel</h1>
+            <p>Experience unparalleled luxury and comfort in the heart of the city. Your perfect getaway awaits.</p>
+            <a href="book-now.html" class="bt">Book Now</a>
+        </div>
+    </section>
 
-        <section class="section-Exclusive">
-            <h2>Exclusive Offers</h2>
-            <div class="container">
-                <div class="row">
+    <section class="section-Exclusive">
+        <h2>Exclusive Offers</h2>
+        <div class="container">
+            <div class="row">
 
-                    <div class="col-lg-8">
-                        <h3 class="ex-h3">Summer Escape Package</h3>
-                        <p class="ex-p">Enjoy a luxurious stay with our Summer Escape Package, including a complimentary  a gourmet dinner for two.</p>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <img src="src/images/ex.png" alt="" class="ex-img">
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-
-        <section class="about" id="about">
-            <a href="#">About Us</a>
-
-            <div class="cards">
-                        <div class="card" style="width: 18rem;">
-                            <img src="src/images/about-1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Our Vision</h5>
-                                <p class="card-text">To be the leading luxury hotel, renowned for exceptional service and unforgettable experiences.</p>
-                            </div>
-                       </div>
-                    
-                    
-                     
-                        <div class="card" style="width: 18rem;">
-                            <img src="src/images/about-2.png" class="card-img-top " alt="..." >
-                            <div class="card-body">
-                                <h5 class="card-title">Our Mission</h5>
-                                <p class="card-text">To provide a sanctuary of elegance and tranquility, exceeding the expectations of every guest.</p>
-                            </div>
-                       </div>
-                    
-
-                        <div class="card" style="width: 18rem;">
-                            <img src="src/images/about-3.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Our Goals</h5>
-                                <p class="card-text">To continuously innovate and enhance our offerings, ensuring a seamless and personalized stay.</p>
-                            </div>
-                       </div>
-           </div> 
-         <section>
-            
-         <section class="services" style="margin-top: 50px;">
-            <a href="#" style="margin-top: 50px;">Our Services</a>
-
-             <div class="cards">
-                        <div class="card" style="width: 18rem;">
-                            <img src="src/images/ser-1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Room Booking</h5>
-                                <p class="card-text">Choose from a variety of luxurious rooms and suites, each designed for ultimate comfort and style.</p>
-                            </div>
-                       </div>
-                    
-                    
-                     
-                        <div class="card" style="width: 18rem;">
-                            <img src="src/images/ser-2.png" class="card-img-top " alt="..." >
-                            <div class="card-body">
-                                <h5 class="card-title">Fine Dining</h5>
-                                <p class="card-text">Indulge in exquisite culinary experiences at our award-winning restaurants, offering a range of cuisines.</p>
-                            </div>
-                       </div>
-                    
-
-                        <div class="card" style="width: 18rem;">
-                            <img src="src/images/ser-3.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Meeting Rooms</h5>
-                                <p class="card-text"> Host your events in our sophisticated meeting rooms, equipped with state-of-the-art facilities.</p>
-                            </div>
-                       </div>
-           </div> 
-
-         </section>   
-
-         <section style="margin-top: 50px;">
-
-               <a href="#" class="" id="">Gallery</a>
-               <div class="cards" >
-                        <div class="card" style="width: 18rem;">
-                            <img src="src/images/gel-1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Lobby</h5>
-                            </div>
-                       </div>
-                    
-                    
-                     
-                        <div class="card" style="width: 18rem;">
-                            <img src="src/images/gel-2.png" class="card-img-top " alt="..." >
-                            <div class="card-body">
-                                <h5 class="card-title">Rooms</h5>
-                            </div>
-                       </div>
-                    
-
-                        <div class="card" style="width: 18rem;">
-                            <img src="src/images/gel-3.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Dining</h5>
-                            </div>
-                       </div>
-                    </div> 
-
-         </section>   
-
-         <section style="margin-top: 50px;">
-            <a href="#">Customer Reviews</a>
-
-             <div class="cards">
-                        <div class="card" style="width: 18rem;">
-                            <img src="src/images/cust-1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Sophia Carter</h5>
-                                <p class="card-text">"The service was impeccable, and the room was stunning. A truly memorable experience!"<p>
-                            </div>
-                       </div>
-                    
-                    
-                     
-                        <div class="card" style="width: 18rem;">
-                            <img src="src/images/cust-2.png" class="card-img-top " alt="..." >
-                            <div class="card-body">
-                                <h5 class="card-title">Ethan Blake</h5>
-                                <p class="card-text">"The dining options were exceptional, and the spa treatments were incredibly relaxing. Highly recommended!"</p>
-                            </div>
-                       </div>
-                    
-
-                        <div class="card" style="width: 18rem;">
-                            <img src="src/images/cust-3.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Olivia Hayes</h5>
-                                <p class="card-text">"The staff went above and beyond to make our stay perfect. We'll definitely be back!"</p>
-                            </div>
-                       </div>
-           </div> 
-         </section>
-
-                
-
-    <!-- MAIN -->
-
-    <!-- FOOTER -->
-
-     <footer>    
-          <div class="footer-m">
-               <div class="footer-right">
-                     <div href="#" class="footer-right-data">
-                        <a href="#top">
-                            <img src="src/images/logo.png" alt="logo" >
-                            <h1 >CORAL HOTEL</h1>
-                        </a>     
-                     </div>
-                     <p>Welcome to Coral Hotel Your unforgettable escape begins here.</p>
+                <div class="col-lg-8">
+                    <h3 class="ex-h3">Summer Escape Package</h3>
+                    <p class="ex-p">Enjoy a luxurious stay with our Summer Escape Package, including a complimentary a
+                        gourmet dinner for two.</p>
                 </div>
 
-                 <div class="footer-left">
-                     <i class='bx bxs-phone-call'> 05 333333</i>
-                      <i class='bx bxl-whatsapp'> 771408492</i>
-                      <i class='bx bxl-instagram'> info@coralhotel.com</i>
-                      <i class='bx bx-envelope'> mohammedkhaled@gmail.com </i>
-                 </div>
+                <div class="col-lg-4">
+                    <img src="src/images/ex.png" alt="" class="ex-img">
+                </div>
+
             </div>
         </div>
+    </section>
+
+    <section class="about" id="about">
+        <a href="#">About Us</a>
+
+        <div class="cards">
+            <div class="card" style="width: 18rem;">
+                <img src="src/images/about-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Our Vision</h5>
+                    <p class="card-text">To be the leading luxury hotel, renowned for exceptional service and
+                        unforgettable experiences.</p>
+                </div>
+            </div>
+
+
+
+            <div class="card" style="width: 18rem;">
+                <img src="src/images/about-2.png" class="card-img-top " alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Our Mission</h5>
+                    <p class="card-text">To provide a sanctuary of elegance and tranquility, exceeding the expectations
+                        of every guest.</p>
+                </div>
+            </div>
+
+
+            <div class="card" style="width: 18rem;">
+                <img src="src/images/about-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Our Goals</h5>
+                    <p class="card-text">To continuously innovate and enhance our offerings, ensuring a seamless and
+                        personalized stay.</p>
+                </div>
+            </div>
         </div>
-        <span style="margin-left: 500px;">&copy 2025 Grand Retreat. All rights reserved</span>
-        
-     </footer>
+        <section>
 
-    <!-- FOOTER -->
+            <section class="services" style="margin-top: 50px;">
+                <a href="#" style="margin-top: 50px;">Our Services</a>
 
-    <script src="./src/js/swiper-bundle.min.js"></script>
-    <script src="./src/js/swiper-element-bundle.min.js"></script>
-    <script src="./src/js/aos.js"></script>
-    <script src="./src/js/bootstrap.min.js"></script>
-    <script src="./src/js/scriptjs"></script>
+                <div class="cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="src/images/ser-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Room Booking</h5>
+                            <p class="card-text">Choose from a variety of luxurious rooms and suites, each designed for
+                                ultimate comfort and style.</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="src/images/ser-2.png" class="card-img-top " alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Fine Dining</h5>
+                            <p class="card-text">Indulge in exquisite culinary experiences at our award-winning
+                                restaurants, offering a range of cuisines.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="src/images/ser-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Meeting Rooms</h5>
+                            <p class="card-text"> Host your events in our sophisticated meeting rooms, equipped with
+                                state-of-the-art facilities.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section style="margin-top: 50px;">
+
+                <a href="#" class="" id="">Gallery</a>
+                <div class="cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="src/images/gel-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lobby</h5>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="src/images/gel-2.png" class="card-img-top " alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Rooms</h5>
+                        </div>
+                    </div>
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="src/images/gel-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dining</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section style="margin-top: 50px;">
+                <a href="#">Customer Reviews</a>
+
+                <div class="cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="src/images/cust-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sophia Carter</h5>
+                            <p class="card-text">"The service was impeccable, and the room was stunning. A truly
+                                memorable experience!"
+                            <p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="src/images/cust-2.png" class="card-img-top " alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ethan Blake</h5>
+                            <p class="card-text">"The dining options were exceptional, and the spa treatments were
+                                incredibly relaxing. Highly recommended!"</p>
+                        </div>
+                    </div>
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="src/images/cust-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Olivia Hayes</h5>
+                            <p class="card-text">"The staff went above and beyond to make our stay perfect. We'll
+                                definitely be back!"</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- MAIN -->
+
+            <!-- FOOTER -->
+
+            <footer>
+                <div class="footer-m">
+                    <div class="footer-right">
+                        <div href="#" class="footer-right-data">
+                            <a href="#top">
+                                <img src="src/images/logo.png" alt="logo">
+                                <h1>CORAL HOTEL</h1>
+                            </a>
+                        </div>
+                        <p>Welcome to Coral Hotel Your unforgettable escape begins here.</p>
+                    </div>
+
+                    <div class="footer-left">
+                        <i class='bx bxs-phone-call'> 05 333333</i>
+                        <i class='bx bxl-whatsapp'> 771408492</i>
+                        <i class='bx bxl-instagram'> info@coralhotel.com</i>
+                        <i class='bx bx-envelope'> mohammedkhaled@gmail.com </i>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <span style="margin-left: 500px;">&copy 2025 Grand Retreat. All rights reserved</span>
+
+            </footer>
+
+            <!-- FOOTER -->
+
+            <script src="./src/js/swiper-bundle.min.js"></script>
+            <script src="./src/js/swiper-element-bundle.min.js"></script>
+            <script src="./src/js/aos.js"></script>
+            <script src="./src/js/bootstrap.min.js"></script>
+            <script src="./src/js/script.js"></script>
 </body>
+
 </html>

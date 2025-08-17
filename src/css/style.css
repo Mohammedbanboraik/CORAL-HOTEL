@@ -73,7 +73,7 @@ body {
 .btn-primary {
     border-radius: 10px;
     outline: none;
-    border: 1px solid white;
+    border: 1px solid black;
     font-weight: 500;
 }
 
@@ -82,14 +82,15 @@ body {
     color: black;
 }
 
-.nav-link {
-    transition: all 0.5s;
+.navbar-nav .nav-link{
+    transition: all 0.8s;
 }
 
-.nav-link:hover {
-    color: blue;
-    transform: translateX(0.25rem);
+.navbar-nav .nav-link:hover {
+    color: blue !important; 
+   transform: translateX(1rem);
 }
+
 
 .bt {
     color: #171712;
@@ -616,7 +617,7 @@ span {
 }
 
 
-/* book now */
+/*page 3 (book now) */
 
 .main-book {
     margin-top: 100px;
@@ -681,5 +682,68 @@ span {
     margin-top: 20px;
     border-radius: 10px;
     background-color: #1466B8;
+     border: 1px solid white;
+     font-weight: 500;
+}
 
+.form-sub:hover{
+     border: 2px solid black;
+    color: black;
+}
+
+/* Hide menu toggle on desktop */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Mobile Responsive Styling */
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        padding: 10px;
+    }
+
+    .right-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .left-header {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .left-header a {
+        margin: 10px 0;
+        text-align: left;
+        color: #fff;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .left-header.show {
+        display: flex;
+    }
+
+    .navbar-nav {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .logo h1 {
+        font-size: 16px;
+    }
 }
