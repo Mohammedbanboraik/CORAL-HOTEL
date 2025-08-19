@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>book-now</title>
     <link rel="stylesheet" href="src/css/bootstrap.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="src/css/style.css">
 
@@ -17,10 +19,10 @@
 
 
     <!-- HEADER -->
-  <header class="header">
+    <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #171712;">
             <div class="container-fluid">
-                <a href="#" class="logo d-flex align-items-center">
+                <a href="#top" class="logo d-flex align-items-center ">
                     <img src="src/images/logo.png" alt="logo" style="height: 40px; margin-right: 10px;">
                     <h1 class="name-of-hotel m-0 text-white">CORAL HOTEL</h1>
                 </a>
@@ -51,12 +53,10 @@
         <h2>Book Your Stay</h2>
 
         <form action="" class="book-now-form">
-            <div class="book-now-p">
-                <p>Arrival Date</p>
-                <p style="margin-left: 150px;">Departure Date</p>
-            </div>
             <div class="book-now-input">
+                  <p>Arrival Date</p>
                 <input type="text" placeholder="Select  Date" style="height: 56px ; width: 216px;" id="piker-1">
+                <p >Departure Date</p>
                 <input type="text" placeholder="Select  Date" style="height: 56px ; width: 216px;" id="piker-2">
             </div>
 
@@ -78,13 +78,8 @@
                 </select>
             </div>
 
-            <div class="book-now-p">
-                <p>Adults</p>
-                <p style="margin-left: 185px;"></p>Children</p>
-            </div>
-
             <div class="book-now-input">
-
+                <p>Adults</p>
                 <select name="select-adults" id="" style="height: 56px ; width: 216px;" class="select">
                     <option value="0">0</option>
                     <option value="1">1</option>
@@ -98,7 +93,8 @@
                     <option value="9">9</option>
                     <option value="10">10</option>
                 </select>
-
+                
+                <p>Children</p>
                 <select name="select-adults" id="" style="height: 56px ; width: 216px;">
                     <option value="0">0</option>
                     <option value="2">2</option>
@@ -142,7 +138,7 @@
             </div>
 
             <div class="book-now-input">
-                <textarea name="Special Requests" id="" rows="6" cols="58"></textarea>
+                <textarea name="Special Requests" id="" rows="6" cols="52 " placeholder="Message"></textarea>
             </div>
 
             <input type="submit" value="Confirm Booking" class="form-sub">
@@ -150,30 +146,28 @@
     </main>
     <!-- MAIN -->
 
-    <footer>
-        <div class="footer-m">
-            <div class="footer-right">
-                <div href="#" class="footer-right-data-1">
-                    <a href="#top" style="margin-left: 195px;">
-                        <img src="src/images/logo.png" alt="logo">
-                        <h1>CORAL HOTEL</h1>
-                    </a>
-                </div>
-                <p>Welcome to Coral Hotel Your unforgettable escape begins here.</p>
-            </div>
+    <!-- FOOTER -->
 
-            <div class="footer-left">
-                <i class='bx bxs-phone-call'> 05 333333</i>
-                <i class='bx bxl-whatsapp'> 771408492</i>
-                <i class='bx bxl-instagram'> info@coralhotel.com</i>
-                <i class='bx bx-envelope'> mohammedkhaled@gmail.com </i>
-            </div>
+    <footer class="footer">
+
+        <div class="footer-data">
+            <a href="#top">
+                <img src="src/images/logo.png" alt="">
+                <h1>CORAL HOTEL</h1>
+            </a>
+            <p>Welcome to Coral Hotel Your unforgettable escape begins here.</p>
         </div>
+
+        <div class="footer-contact">
+            <div class="social"><i class="fa-solid fa-phone"></i>: 05 333333</div>
+            <div class="social"><i class="fa-brands fa-whatsapp"></i>: 771408492</div>
+            <div class="social"><i class="fa-brands fa-instagram"></i>: info@coralhotel.com</div>
+            <div class="social"><i class="fa-solid fa-envelope"></i>: mohammedkhaled@gmail.com </div>
         </div>
-        </div>
-        <span class="cop">&copy 2025 Grand Retreat. All rights reserved</span>
 
     </footer>
+
+    <span class="co">&copy 2025 Coral Hotel. All rights reserved</span>
 
     <!-- FOOTER -->
 
